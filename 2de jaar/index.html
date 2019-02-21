@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes, minimal-ui">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title>Tabel</title>
+</head>
+<body>
+
+	<h1>Algemene Vakken*</h1>
+
+	<table id="algemeen">
+		<tr>
+			<td>Godsdienst/NCZ</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Aardrijkskunde</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Engels</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Frans</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Geschiedenis</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Lichamelijke Opvoeding</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Natuurwetenschappen</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Nederlands</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>Plastische Opvoeding</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Wiskunde</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Techniek</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<th>Subtotaal</th>
+			<th>26</th>	
+		</tr>
+	</table>
+	<p class="italic">*Hetzelfde voor alle richtingen</p>
+
+	<h1>Richtingen</h1>
+
+	<h3 onclick="openvak('#grieksLatijn')" id="#grieksLatijn">Grieks-Latijn <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="grieksLatijn">
+	<table>
+		<tr>
+			<td>Latijn</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Grieks</td>
+			<td>2</td>
+		</tr>
+			<tr>
+			<td>Subtotaal</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#latijn')" id="#latijn">Latijn <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="latijn">
+	<table>
+		<tr>
+			<td>Latijn</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Wetenschappelijk Werk</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#moderneWetenschappen')" id="#moderneWetenschappen">Moderne Wetenschappen <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="moderneWetenschappen">
+	<table>
+		<tr>
+			<td>Wetenschappelijk Werk</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Economie</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>

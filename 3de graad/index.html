@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes, minimal-ui">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title>Tabel</title>
+</head>
+<body>
+
+	<h1>Algemene Vakken*</h1>
+
+	<table id="algemeen">
+		<tr>
+			<td>Godsdienst/NCZ</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Aardrijkskunde</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Engels</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Frans</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Geschiedenis</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Lichamelijke Opvoeding</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Nederlands</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Wiskunde</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<th>Subtotaal</th>
+			<th>19</th>	
+		</tr>
+	</table>
+	<p class="italic">*Hetzelfde voor alle richtingen</p>
+
+	<h1>Richtingen</h1>
+	<p class="italic">*Het eerste cijfer staat voor het aantal uren in het 5de jaar, het tweede voor het aantal uren in het 6de jaar</p>
+
+	<h3 onclick="openvak('#economieTalen')" id="#economieTalen">Economie-Moderne Talen <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="economieTalen">
+	<table>
+		<tr>
+			<td>Economie</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Duits Spaans</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Engels</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Frans</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Natuurwetenschappen</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#economieWiskunde')" id="#economieWiskunde">Economie-Wiskunde <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="economieWiskunde">
+	<table>
+		<tr>
+			<td>Economie</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Wiskunde</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Biologie</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Chemie</td>
+			<td>1</td>
+		</tr>	
+		<tr>
+			<td>Fysica</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#grieksLatijn')" id="#grieksLatijn">Grieks-Latijn <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="grieksLatijn">
+	<table>
+		<tr>
+			<td>Grieks</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Latijn</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Natuurwetenschappen</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#humaneWetenschappen')" id="#humaneWetenschappen">Humane Wetenschappen <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="humaneWetenschappen">
+	<table>
+		<tr>
+			<td>Cultuurwetenschappen</td>
+			<td>3/4*</td>
+		</tr>
+		<tr>
+			<td>Gedragswetenschappen</td>
+			<td>4/3*</td>
+		</tr>
+		<tr>
+			<td>Natuurwetenschappen</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Statistiek</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#latijnTalen')" id="#latijnTalen">Latijn-Moderne talen <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="latijnTalen">
+	<table>
+		<tr>
+			<td>Latijn</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Duits/Spaans</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Engels</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Frans</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Natuurwetenschappen</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+	</div>
+
+	<h3 onclick="openvak('#latijnWetenschappen')" id="#latijnWetenschappen">Latijn-Wetenschappen <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="latijnWetenschappen">
+	<table>
+		<tr>
+			<td>Biologie</td>
+			<td>1/2*</td>
+		</tr>
+		<tr>
+			<td>Chemie</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Fysica</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Aardrijkskunde</td>
+			<td>1/0*</td>
+		</tr>
+		<tr>
+			<td>Latijn</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Wiskunde</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+	</div>
+
+	<h3 onclick="openvak('#latijnWiskunde')" id="#latijnWiskunde">Latijn-Wiskunde <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="latijnWiskunde">
+	<table>
+		<tr>
+			<td>Biologie</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Chemie</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Fysica</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>Latijn</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Wiskunde</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+	<h3 onclick="openvak('#wetenschappenWiskunde')" id="#wetenschappenWiskunde">Wetenschappen-Wiskunde <i class="arrow down"></i></h3>
+	<div class="vakInfo" id="wetenschappenWiskunde">
+	<table>
+		<tr>
+			<td>Biologie</td>
+			<td>1/2*</td>
+		</tr>
+		<tr>
+			<td>Chemie</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Fysica</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Aardrijkskunde</td>
+			<td>1/0*</td>
+		</tr>
+		<tr>
+			<td>Wiskunde</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>Grensverleggers</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Subtotaal</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<th>Totaal</th>
+			<th>32</th>
+		</tr>
+	</table>
+	</div>
+
+</body>
+<script src="script.js"></script>
+</html>

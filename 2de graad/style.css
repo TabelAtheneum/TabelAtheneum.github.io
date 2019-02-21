@@ -1,0 +1,55 @@
+body {
+	font-family: 'Open Sans Condensed', 'Myriad Pro', 'Helvetica', sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(odd) {
+	background-color: #eeeeee;
+}
+
+tr td:first-child {
+	width: 80%;
+}
+
+tr td:last-child,
+tr th:last-child {
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+h3 {
+	cursor: pointer;
+	user-select: none;
+}
+
+.vakInfo {
+	display: none;
+	overflow: hidden;
+}
+
+i {
+	transition: 0.25s;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+   	display: inline-block;
+   	padding: 3px;
+}
+
+.down {
+  	transform: rotate(45deg);
+   	-webkit-transform: rotate(45deg);
+   	margin-bottom: 2px;
+}
