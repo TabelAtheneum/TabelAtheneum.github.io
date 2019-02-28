@@ -35,6 +35,7 @@ tr th:last-child {
 	position: absolute;
 	width: 30%;
 	height: 100%;
+	margin-left: 2.5%;
 }
 
 #keuze{
@@ -54,4 +55,25 @@ tr th:last-child {
 #grensverleggers th:hover{
 	font-weight: bold;
 	cursor: pointer;
+}
+
+#totaal tr{
+	background-color: white;
+}
+
+@media (pointer:none), (pointer:coarse) {
+	table{
+		margin-top: 2.5vh;
+	}
+	#keuze{
+		margin-left: 0%;
+		position: static;
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	#basis{
+		position: static;
+		width: 95%;
+		margin-left: 2.5%;
+	}
 }
